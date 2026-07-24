@@ -1,0 +1,189 @@
+:root{
+    --rojotinto: #8F1A1E;
+    --blackrojotinto:#561412;
+    --cafe:#1C0E06;
+    --negro:#030202;
+    --plateado:#C7BAB2;
+    --onix:#0E0E0D;
+}
+
+/* *{
+    color: var(--plateado)
+} */
+
+body{
+    background-color: var(--negro)
+}
+
+/* agregando estilos de encabezado */
+
+header{
+    background-color: var(--negro);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 10rem;
+}
+
+
+.BN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    
+    
+    
+}
+
+nav a{
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--plateado);
+}
+
+img{
+    width: 30rem;
+}
+
+/* estilos contenido principal */
+
+.sushi{
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    height: 50rem;
+    color: antiquewhite;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: left;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    
+
+
+}
+
+.contenidoshushi h1{
+    font-size: 4rem;
+    line-height: 4rem;
+
+}
+
+.contenidoshushi{
+    width: 60%;
+}
+
+
+
+
+
+section img{
+    width: 10rem;
+}
+
+/* estilos de main */
+
+.kumopass{
+    background-color: var(--plateado);
+    text-transform: uppercase;
+    text-align: right;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+
+    width: 100%;
+
+
+    
+
+}
+.kumopass h2{
+    max-width: 50rem;
+}
+
+.kumopass section{
+    border-left: #030202 solid 5px;
+
+}
+
+main{
+    background-image: url(/img/fondo\ 2.png);
+    background-size: cover;
+
+
+}
+
+main h2{
+    width: 60%;
+    
+}
+
+.content{
+    background-color: #F6EDE6;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 2rem;
+    height: 30rem;
+    line-height: 3rem;
+    padding: 5rem;
+
+
+    
+}
+
+.tarjet{
+    text-align: center;
+    background-color: var(--plateado);
+}
+
+
+.descripcion{
+    color: var(--plateado);
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    
+}
+
+.cocinero{
+    background-image: url(/img/cheff.png);
+    height: 20rem;
+    background-size: cover;
+}
+
+/* .banner{
+    
+} */
+
+/* estilos para boton */
+
+.boton{
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--plateado);
+    border-bottom: 1rem solid;
+    border: 1rem;
+}
+
+.button{
+    background-color: var(--rojotinto);
+    color: var(--plateado);
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button2{
+    background-color: var(--negro);
+    color: var(--plateado);
+    padding: 1.5rem   5rem;
+    font-weight: bold;
+    
+    text-decoration: none;
+    
+}
